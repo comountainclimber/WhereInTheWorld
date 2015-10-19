@@ -12,7 +12,8 @@
     "express": "~4.13.3",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "mongoose": "~4.1.12"
   },
   "description": "ERROR: No README data found!",
   "main": "app.js",

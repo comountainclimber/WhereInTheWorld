@@ -1,0 +1,23 @@
+.reported_data h5 {
+	margin: 0px;
+}
+
+.reported_data h2 {
+	margin-bottom: 0px;
+}
+
+.legend img{
+	width: 75px;
+}
+
+.content {
+	text-align: center;
+}
+
+.results {
+	cursor:pointer;
+}
+
+.travelIcon {
+	width:40px;
+}
