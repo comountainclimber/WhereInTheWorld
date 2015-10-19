@@ -7,6 +7,6 @@
   <li> clone the repository </li>
   <li> run npm install (in order to install node modules) </li>
   <li> install MongoDB </li>
-  <li> import countries.json (located in /models/countries.json into a MongoDB database </li>
+  <li> import countries.json (located in /models/countries.json) into a MongoDB database </li>
   <li> open terminal, run mongod, mongo and enjoy! </li>
 </ol>
