@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/countriesDB')
+mongoose.connect('mongodb://localhost/Country')
 
 var Country = mongoose.Schema({
     name: {type: String},
@@ -7,7 +7,7 @@ var Country = mongoose.Schema({
     localName: {type: String},
     region: {type: String},
     hasTravelled: {type:Boolean}
-})
+}, {collection:'countries'})
 
 module.exports = {
 	Country : mongoose.model("Country",Country)

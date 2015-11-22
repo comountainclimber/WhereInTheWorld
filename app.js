@@ -39,7 +39,7 @@ app.get('/retrieveVisited', function(req, res){
 
 
 app.post('/search', function(req, res){
-    console.log(req.body.country)
+    db.Country.find({name:req.body.country})
     db.Country.find({name:new RegExp(req.body.country)} , function(err, doc){
       res.send(doc)
     })
